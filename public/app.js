@@ -5,7 +5,7 @@ if ('serviceWorker' in navigator) {
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
     const baseUrl = isLocalhost ? '' : '/Rezerv';
     const swPath = `${baseUrl}/service-worker.js`;
-    const scope = isLocalhost ? '/' : '/Rezerv/';
+    const scope = isLocalhost ? '/' : '/rezervplusfinal/';
     
     navigator.serviceWorker.register(swPath, { scope })
       .then((registration) => {
