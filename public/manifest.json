@@ -1,0 +1,19 @@
+{
+  "name": "Резерв ID",
+  "short_name": "Резерв",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e0dfcb",
+  "theme_color": "#e0dfcb",
+  "orientation": "portrait-primary",
+  "description": "Військово-обліковий документ",
+  "icons": [
+    {
+      "src": "./icon-placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ]
+}
